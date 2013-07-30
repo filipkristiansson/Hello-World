@@ -1,3 +1,9 @@
-Hello world - //but this i totally wrong? 
-[header1]
-  
+Just an example of code
+<?php
+$test = "126.122.95.52";
+if ( preg_match( "/(\d+)\.(\d+)\.(\d+)\.(\d+)/", $test, $arr ) ) {
+  print "<pre>\n";
+  print_r( $arr );
+  print "</pre>\n";
+}
+?>
